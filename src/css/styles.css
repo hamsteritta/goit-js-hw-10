@@ -23,3 +23,65 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+.nav-list {
+  justify-content: center;
+}
+.nav-link {
+  font-weight: bold;
+  font-size: 25px;
+}
+.timer {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 30px;
+  gap: 10px;
+}
+
+.field {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  flex-direction: column;
+}
+
+.value {
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 120%;
+}
+
+.label {
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+button {
+  border-radius: 5px;
+  padding: 5px 20px;
+  border: none;
+  background: #8527bf;
+  color: #fff;
+}
+button:disabled {
+  background: #b899cc;
+}
+#datetime-picker {
+  border-radius: 5px;
+  padding: 5px 20px;
+}
+
+.form {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-direction: column;
+  max-width: 250px;
+}
+
+.form [name='delay'] {
+  display: block;
+}
